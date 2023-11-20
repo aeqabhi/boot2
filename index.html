@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP</title>
+
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- my css  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Sulphur+Point:wght@700&display=swap"
+        rel="stylesheet">
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <!--====================
+        NAVIGATION BAR 
+    ======================-->
+    <nav class="navbar navbar-expand-lg bg-color">
+        <a class="navbar-brand text-white" href="#">ABHI<span class="text-primary">SHEK</span></a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact </a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!--====================
+         HERO SECTION 
+    ======================-->
+    <section class="hero-section bg-color ">
+        <div class="container">
+            <div class="row ">
+                <div
+                    class="mt-5 mt-md-0 text-center text-md-start col-12 col-md-6 d-flex flex-column justify-content-center align-items-center align-items-md-start order-1 order-md-0">
+                    <h1 class="common-heading ">We are leading the <br>excellence</h1>
+                    <p class="my-md-3 my-1 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iure
+                        amet sint
+                        aut nam
+                        voluptate! Debitis harum repellendus deserunt autem odit voluptatem aperiam alias voluptates,
+                        atque rerum nesciunt architecto veritatis?</p>
+                    <button class="btn btn-primary mt-3 text-center text-md-start" data-bs-toggle="tooltip"
+                        data-bs-placement="right" title="Please Contact">Contact</button>
+                </div>
+                <div class="col-12 col-md-6 text-center text-md-end order-0 order-md-1 ">
+                    <video class="rounded" src="hero.mp4" loop muted autoplay></video>
+                </div>
+            </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1700201888">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                    opacity=".25" class="shape-fill"></path>
+                <path
+                    d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                    opacity=".5" class="shape-fill"></path>
+                <path
+                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!--====================
+         SERVICE SECTION 
+    ======================-->
+    <section class="service-section m-3">
+        <div class="container text-center">
+            <h2 class="common-heading mb-0">What we will do for<br> Your Businesses</h2>
+            <hr class="w-25 mx-auto mb-5">
+
+            <div class="row m-5 g-1">
+                <div class="col-12 col-md-4">
+                    <div class=" p-2 rounded service-section-hover">
+                        <img src="link.gif" alt="">
+                        <h4>Service</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim ipsam eius pariatur culpa
+                            corrupti? Eius hic voluptatem quia?</p>
+                        <a href="#" class="text-white rounded-circle bg-primary p-1"><i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="shadow p-2 rounded">
+                        <img src="link.gif" alt="">
+                        <h4>Service</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim ipsam eius pariatur culpa
+                            corrupti? Eius hic voluptatem quia?</p>
+                        <a href="#" class="text-white rounded-circle bg-primary p-1"><i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class=" p-2 rounded service-section-hover">
+                        <img src="link.gif" alt="">
+                        <h4>Service</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim ipsam eius pariatur culpa
+                            corrupti? Eius hic voluptatem quia?</p>
+                        <a href="#" class="text-white rounded-circle bg-primary p-1"><i
+                                class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--====================
+         ONLINE SECTION 
+    ======================-->
+    <section class="online-section bg-color  py-4">
+        <div class="container">
+            <h2 class="text-center">Online services</h2>
+            <hr class="w-25 mx-auto">
+            <div class="row">
+                <div class="col-12 col-md-6 text-center text-md-start">
+                    <img src="phone.gif" alt="">
+                </div>
+                <div
+                    class="text-center text-md-start col-12 col-md-6 d-flex flex-column justify-content-center align-items-center align-items-md-start">
+                    <h2 class="common-heading ">We are leading the <br>excellence</h1>
+                        <p class="my-md-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iure amet
+                            sint
+                            aut nam
+                            voluptate! Debitis harum repellendus deserunt autem odit voluptatem aperiam alias
+                            voluptates,
+                            atque rerum nesciunt architecto veritatis?</p>
+                        <button class="btn btn-primary mt-3" data-bs-toggle="tooltip" data-bs-placement="right"
+                            title="Please Contact">Contact</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--====================
+         SHOWCASE SECTION 
+    ======================-->
+    <section class="showcase-section text-center my-4">
+        <div class="container">
+            <h2 class="">Showcase section</h2>
+            <hr class="w-25 mb-5 mx-auto">
+
+            <div class="row g-3">
+                <div class="col-12 col-md-6">
+                    <div class="d-flex shadow p-2 rounded">
+                        <img src="link.gif" alt="">
+                        <p class="my-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi atque et culpa
+                            iusto assumenda aperiam modi. Quia non necessitatibus eligendi facere natus? Aspernatur
+                            accusantium sit illum repudiandae quos magnam necessitatibus?</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="d-flex shadow p-2 rounded">
+                        <img src="link.gif" alt="">
+                        <p class="my-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi atque et culpa
+                            iusto assumenda aperiam modi. Quia non necessitatibus eligendi facere natus? Aspernatur
+                            accusantium sit illum repudiandae quos magnam necessitatibus?</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="d-flex shadow p-2 rounded">
+                        <img src="link.gif" alt="">
+                        <p class="my-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi atque et culpa
+                            iusto assumenda aperiam modi. Quia non necessitatibus eligendi facere natus? Aspernatur
+                            accusantium sit illum repudiandae quos magnam necessitatibus?</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="d-flex shadow p-2 rounded">
+                        <img src="link.gif" alt="">
+                        <p class="my-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi atque et culpa
+                            iusto assumenda aperiam modi. Quia non necessitatibus eligendi facere natus? Aspernatur
+                            accusantium sit illum repudiandae quos magnam necessitatibus?</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--====================
+        TESTIMONIAL SECTION 
+    ======================-->
+    <section class="testimonial-section text-center my-5 bg-color py-5">
+        <div class="container">
+            <h2 class="text-white">What client says <br>About us</h2>
+            <hr class="w-25 mx-auto">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner text-center">
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-12 col-md-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <div class="card h-200" style="width: 18rem;">
+                                        <img src="elon-musk-81fi31lzmqbcg80q.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo harum
+                                                natus
+                                                necessitatibus amet eos ullam! Non, modi. Quas facilis perspiciatis modi
+                                                provident maxime reiciendis voluptas ad a, vitae commodi.</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <div class="card h-200" style="width: 18rem;">
+                                        <img src="elon-musk-81fi31lzmqbcg80q.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo harum
+                                                natus
+                                                necessitatibus amet eos ullam! Non, modi. Quas facilis perspiciatis modi
+                                                provident maxime reiciendis voluptas ad a, vitae commodi.</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <div class="card h-200" style="width: 18rem;">
+                                        <img src="elon-musk-81fi31lzmqbcg80q.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo harum
+                                                natus
+                                                necessitatibus amet eos ullam! Non, modi. Quas facilis perspiciatis modi
+                                                provident maxime reiciendis voluptas ad a, vitae commodi.</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-12 col-md-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <div class="card h-200" style="width: 18rem;">
+                                        <img src="elon-musk-81fi31lzmqbcg80q.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo harum
+                                                natus
+                                                necessitatibus amet eos ullam! Non, modi. Quas facilis perspiciatis modi
+                                                provident maxime reiciendis voluptas ad a, vitae commodi.</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <div class="card h-200" style="width: 18rem;">
+                                        <img src="elon-musk-81fi31lzmqbcg80q.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo harum
+                                                natus
+                                                necessitatibus amet eos ullam! Non, modi. Quas facilis perspiciatis modi
+                                                provident maxime reiciendis voluptas ad a, vitae commodi.</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <div class="card h-200" style="width: 18rem;">
+                                        <img src="elon-musk-81fi31lzmqbcg80q.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo harum
+                                                natus
+                                                necessitatibus amet eos ullam! Non, modi. Quas facilis perspiciatis modi
+                                                provident maxime reiciendis voluptas ad a, vitae commodi.</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-12 col-md-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <div class="card h-200" style="width: 18rem;">
+                                        <img src="elon-musk-81fi31lzmqbcg80q.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo harum
+                                                natus
+                                                necessitatibus amet eos ullam! Non, modi. Quas facilis perspiciatis modi
+                                                provident maxime reiciendis voluptas ad a, vitae commodi.</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <div class="card h-200" style="width: 18rem;">
+                                        <img src="elon-musk-81fi31lzmqbcg80q.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo harum
+                                                natus
+                                                necessitatibus amet eos ullam! Non, modi. Quas facilis perspiciatis modi
+                                                provident maxime reiciendis voluptas ad a, vitae commodi.</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <div class="card h-200" style="width: 18rem;">
+                                        <img src="elon-musk-81fi31lzmqbcg80q.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo harum
+                                                natus
+                                                necessitatibus amet eos ullam! Non, modi. Quas facilis perspiciatis modi
+                                                provident maxime reiciendis voluptas ad a, vitae commodi.</p>
+                                        </div>
+                                        <div class="stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+
+            </div>
+    </section>
+    <!--====================
+        CONTACT SECTION 
+    ======================-->
+    <section class="contact-section text-center my-4">
+        <div class="container">
+            <h2>Contact us</h2>
+            <hr class="w-25 mx-auto">
+
+            <form action="">
+                <div class="mb-3">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <label for="name" class="form-label"></label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="FirsName">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="name" class="form-label"></label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="LastName">
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <input type="submit" value="Submit" class="btn btn-primary px-4">
+            </form>
+        </div>
+    </section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+</body>
+
+</html>

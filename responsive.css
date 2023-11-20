@@ -1,0 +1,53 @@
+/* 1000PX  */
+@media screen and (max-width:1000px) {
+    .hero-section{
+        height: 100vh;
+    }
+    .hero-section video {
+        max-width: 100%;
+    }
+    .showcase-section p{
+        line-height: 0.8rem;
+        font-size: 0.8rem;
+    }
+    .testimonial-section p{
+        line-height: 1rem;
+        font-size: 0.8rem;
+    }
+}
+
+/* 757PX */
+@media screen and (max-width:767px) {
+
+    .hero-section{
+        height: 125vh;
+    }
+    .hero-section video {
+        max-width: 90%;
+    }
+    .hero-section .container{
+       align-items: start;
+       padding-top: 3rem;
+    }.showcase-section p{
+        line-height: 1rem;
+        font-size: 0.9rem;
+    }
+}
+/* 500PX */
+@media screen and (max-width:500px) {
+
+    .service-section p {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    .service-section h4 {
+        font-size: 1rem;
+    }
+    .showcase-section p{
+        line-height: 0.85rem;
+        font-size: 0.7rem;
+    }
+    .dis{
+        display: none;
+    }
+}
